@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+  
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>Temperature Convertor</title> 
+     <link rel="stylesheet" href="./style3.css"> 
+ </head> 
+  
+ <body> 
+     <form class="tc" onSubmit="tempConvert(); return false"> 
+         <p> Temperature Convertor</p> 
+         <input type="number" id="val" name="temp" placeholder="Please enter the temperature"> 
+         <select name="op" id="op"> 
+             <option value="celsius">Celsius</option> 
+             <option value="fahrenheit">Fahrenheit</option> 
+         </select> 
+         </br></br> 
+         <input type="Submit" id="sub" name="sub" value="Convert"> 
+         </br> 
+         <span id="result"></span> 
+     </form> 
+     <script src="./java3.js"></script> 
+ </body> 
+  
+ </html>
